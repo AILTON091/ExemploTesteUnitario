@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Calculadora cal = new Calculadora();
+		Calculadora calculo = new Calculadora();
 		TesteUnitarioCalculadora teste = new TesteUnitarioCalculadora();
 		teste.reultadoTesteCalculara();
 	}

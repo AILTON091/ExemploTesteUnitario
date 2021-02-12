@@ -10,8 +10,9 @@ public class CalculadoraTest {
 	public void testSomar() {
 		
 		Calculadora cal = new Calculadora();		
-		Integer resp = cal.somar(2, 2);
-		assertTrue(resp == 4);
+		Integer resposta = cal.somar(2, 2);
+		assertTrue(resposta==4);
+		
 	}
 
 }
